@@ -28,26 +28,27 @@ class _HomeScreenState extends State<HomeScreen> {
           title: Container(
             margin: EdgeInsets.only(right: 10),
             child: Center(
-                child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  margin: EdgeInsets.only(right: 5, left: 5),
-                  child: Image.asset(
-                    "images/logo.png",
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(right: 5, left: 5),
+                    child: Image.asset(
+                      "images/logo.png",
+                    ),
                   ),
-                ),
-                Text(
-                  "Audiozic",
-                  style: TextStyle(
-                    color: AppConstants.PRIMARY_COLOR,
-                    fontFamily: 'Poppins',
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold
+                  Text(
+                    "Audiozic",
+                    style: TextStyle(
+                      color: AppConstants.PRIMARY_COLOR,
+                      fontFamily: 'Poppins',
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold
+                    ),
                   ),
-                ),
-              ],
-            )),
+                ],
+              )
+            ),
           ),
           actions: [
             GestureDetector(

@@ -55,6 +55,7 @@ flutter:
     - images/h_2.png
     - images/h_3.png
     - images/h_4.png
+    - images/h_big.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
